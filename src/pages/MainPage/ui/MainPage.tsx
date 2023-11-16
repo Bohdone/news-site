@@ -8,7 +8,6 @@ const MainPage = () => {
     return (
         <div>
             <h1>{t('its main page')}</h1>
-            <h1>{t('sdf')}</h1>
         </div>
     );
 };
