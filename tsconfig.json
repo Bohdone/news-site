@@ -27,7 +27,10 @@
     // c флагом результат [object Object]
     // console.log(Moment);
     "esModuleInterop": true,
-//    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    }
   },
   "ts-node": {
     "compilerOptions": {
