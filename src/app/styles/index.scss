@@ -3,19 +3,23 @@
 @import "themes/normal";
 @import "themes/dark";
 
+
 .app {
-  font: var(--font-m);
-  background: var(--bg-color);
-  color: var(--primary-color);
-  min-height: 100vh;
+    font: var(--font-m);
+    background: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
 }
 
+
+
 .content-page {
-  display: flex;
-  text-transform: capitalize;
-  text-align: center;
+    display: flex;
+    text-transform: capitalize;
+    text-align: center;
 }
-.page-wrapper{
-  padding: 20px;
-  flex-grow: 1;
+
+.page-wrapper {
+    padding: 20px;
+    flex-grow: 1;
 }

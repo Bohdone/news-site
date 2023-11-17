@@ -5,7 +5,8 @@ module.exports = {
     },
     "extends": [
         "standard-with-typescript",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:i18next/recommended"
     ],
     "overrides": [
         {
@@ -25,7 +26,8 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "i18next"
     ],
     rules: {
         "@typescript-eslint/strict-boolean-expressions": "off",
