@@ -6,6 +6,7 @@ const MainPage = () => {
 
   return (
         <div>
+
             <h1>{t('its main page')}</h1>
         </div>
   )
