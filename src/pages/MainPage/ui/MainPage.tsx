@@ -1,16 +1,14 @@
-import React from 'react'
-import { useTranslation } from 'react-i18next'
-import { BugButton } from 'app/providers/ErrorBoundary'
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const MainPage = () => {
-  const { t } = useTranslation('main')
+    const { t } = useTranslation();
 
-  return (
+    return (
         <div>
-            <h1>{t('its main page')}</h1>
-            <BugButton/>
+            {t('Главная страница')}
         </div>
-  )
-}
+    );
+};
 
-export default MainPage
+export default MainPage;
