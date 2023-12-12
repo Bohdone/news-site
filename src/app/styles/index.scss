@@ -3,10 +3,13 @@
 @import "themes/normal";
 @import "themes/dark";
 
-.app {
-    font: var(--font-m);
-    background: var(--bg-color);
+body{
     color: var(--primary-color);
+}
+
+.app {
+    background: var(--bg-color);
+    font: var(--font-m);
     min-height: 100vh;
 }
 
