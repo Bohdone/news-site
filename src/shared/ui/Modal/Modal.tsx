@@ -1,6 +1,5 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import React, {
-    lazy,
     ReactNode, useCallback, useEffect, useRef, useState,
 } from 'react';
 import { Portal } from 'shared/ui/Portal/Portal';
